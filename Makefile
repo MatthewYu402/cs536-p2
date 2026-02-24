@@ -8,5 +8,6 @@ all:
 run: all
 	java -cp $(OUT) madlang.Main $(FILE)
 
+
 clean:
 	rm -rf $(OUT)
